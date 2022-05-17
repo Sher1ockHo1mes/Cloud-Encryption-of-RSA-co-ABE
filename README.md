@@ -18,6 +18,7 @@ rsa_publickeyencrypt.sh实现了RSA和Openabe的混合加密并测试时间复�
 （7）使用RSA私钥解密
 
 rsa_privatekeyencrypt.sh是使用openssl使用私钥加密、公钥解密。前文中公钥经过Openabe加密的，通过正确的属性值解密才能够获取到，因此这里可以通过数字签名的方式使用私钥加密、公钥解密，步骤氛围四步：
+
 （1）生成私钥
 
 （2）生成公钥
