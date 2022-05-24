@@ -1,6 +1,6 @@
 此项目是用openabe、openssl实现的基于CPABE策略的属性加密、生成密钥、解密以及时间复杂度分析，并实现RSA和ABE的共同加密以及时间复杂度分析。
 运行前要先安装好openabe（里面包括openssl），详情请参考https://github.com/zeutro/openabe
-安装openabe包时中有些子安装包的下载地址发生了变动以及有些地方写的不太对（参考isssue），因此安装openabe包时会报错，为了方便大家应用，我把debug后的下载文件放在这里，大家可以根据需要安装（预计安装需要10分钟），链接：https://pan.baidu.com/s/1T8qnBPk7clwVd1v6C5Jcpw?pwd=25z8 提取码：25z8。
+安装openabe包时中有些子安装包的下载地址发生了变动以及有些地方写的不太对（参考isssue），因此安装openabe包时会报错。为了方便大家应用，我把debug后的下载文件放在这里，大家可以根据需要安装（预计安装需要10分钟），链接：https://pan.baidu.com/s/1T8qnBPk7clwVd1v6C5Jcpw?pwd=25z8 提取码：25z8。
 安装可以参考解压后docs文件夹里的libopenabe-v1.0.0-api-doc文件，以 Debian/Ubuntu-based Linux为例，推荐ubuntu 16.04和ubuntu20.04（我们在这两个版本中跑通过），安装分为以下几步：
 
 cd libopenabe-1.0.0/
