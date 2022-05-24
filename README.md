@@ -4,9 +4,13 @@
 安装可以参考解压后docs文件夹里的libopenabe-v1.0.0-api-doc文件，以 Debian/Ubuntu-based Linux为例，推荐ubuntu 16.04和ubuntu20.04（我们在这两个版本中跑通过），安装分为以下几步：
 
 cd libopenabe-1.0.0/
+
 sudo -E ./deps/install_pkgs.sh
+
 . ./env
+
 make
+
 make test
 
 安装完成后要在openabe-master/cli文件夹中运行（因要要用到oabe_enc等函数）。在虚拟机和云服务器运行时时间抖动较大，尤其是当本地虚拟机配置较低时，因此测试时间复杂度的程序迭代运行了1000次，后续可编程序去除其中抖动明显很大的数据、取平均等数据处理并画图，或者可根据需要将1000次改成100次等。
